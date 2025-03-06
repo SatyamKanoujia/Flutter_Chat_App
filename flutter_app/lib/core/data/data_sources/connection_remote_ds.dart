@@ -1,7 +1,7 @@
 import 'package:askless/index.dart';
 
 class ConnectionRemoteDS {
-  final String serverUrl = " Replace with your websocket server URL here (e.g. IPv4)"; 
+  final String serverUrl = " Replace with your websocket server URL here (e.g. IPv4) "; 
 
   void start({required OnAutoReauthenticationFails onAutoReauthenticationFails}) {
     AsklessClient.instance.start(

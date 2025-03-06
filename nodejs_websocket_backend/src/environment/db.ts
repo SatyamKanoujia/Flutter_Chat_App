@@ -8,7 +8,7 @@ export const dbDatasourceOptions: DataSourceOptions = {
     host: "127.0.0.1", //localhost
     port: 3306,
     username: "root",
-    password: "$Atyam29",
+    password: "root",
     database: "flutter_chat_app_with_nodejs",
 
     // No need to change this fields bellow
